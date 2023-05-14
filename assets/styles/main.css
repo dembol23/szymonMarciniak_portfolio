@@ -10,19 +10,19 @@ body {
   background: var(--background);
   font-family: "Lexend", sans-serif;
 }
-:root{
-  --background:#ffffff;
-  --text:#000000;
-  --primary:#079cf6;
-  --secondary:#efefef;
-  --accent:#75d3ff;
+:root {
+  --background: #ffffff;
+  --text: #000000;
+  --primary: #079cf6;
+  --secondary: #efefef;
+  --accent: #75d3ff;
 }
 .darkTheme {
-  --background:#0e0f12;
-  --text:#ffffff;
-  --primary:#0094ff;
-  --secondary:#1a1d21;
-  --accent:#0094ff;
+  --background: #0e0f12;
+  --text: #ffffff;
+  --primary: #0094ff;
+  --secondary: #1a1d21;
+  --accent: #0094ff;
 }
 
 /* --------------------- */
@@ -59,7 +59,7 @@ body {
 .nav__link:hover {
   text-decoration: underline 2px var(--primary);
 }
-.themeToggle{
+.themeToggle {
   background: var(--secondary);
   border: none;
   height: 35px;
@@ -69,7 +69,7 @@ body {
   position: relative;
   cursor: pointer;
 }
-.themeToggle__ball{
+.themeToggle__ball {
   position: absolute;
   top: 2.5px;
   left: 2px;
@@ -82,11 +82,11 @@ body {
   align-items: center;
   transition: left 0.5s ease;
 }
-.themeToggle__icon{
+.themeToggle__icon {
   font-size: 25px;
   color: var(--text);
 }
-.icon-hidden{
+.icon-hidden {
   display: none;
 }
 /* --------------------- */
@@ -129,40 +129,40 @@ body {
 }
 .text-span-link {
   cursor: pointer;
-    font-weight: 900;
+  font-weight: 900;
 }
 .text-span-link:hover {
-    color: var(--primary);
-    text-decoration: underline;
+  color: var(--primary);
+  text-decoration: underline;
 }
-.button-wrapper{
-    margin-top: 20px;
+.button-wrapper {
+  margin-top: 20px;
 }
-.button{
-    padding: 10px;
-    margin-right: 5px;
-    text-decoration: none;
-    color: var(--text);
-    font-size: 2rem;
-    border-radius: 7px;
-    line-height: 44px;
-    user-select: none;
-    transition: transform ease 0.2s, box-shadow ease 0.2s;
-    display: inline-block;
-  }
-  .primary-button{
-    background: var(--primary);
-    color: var(--background);
-  }
-  .primary-button:hover{
-    box-shadow: 0 20px 80px -10px var(--primary);
-    z-index: 1;
-  }
-  .secondary-button{
-    background: var(--secondary);
+.button {
+  padding: 10px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 2rem;
+  border-radius: 7px;
+  line-height: 44px;
+  user-select: none;
+  transition: transform ease 0.2s, box-shadow ease 0.2s;
+  display: inline-block;
 }
-.button:hover{
-    transform: translate(0, -2px);
+.primary-button {
+  background: var(--primary);
+  color: var(--background);
+}
+.primary-button:hover {
+  box-shadow: 0 20px 80px -10px var(--primary);
+  z-index: 1;
+}
+.secondary-button {
+  background: var(--secondary);
+}
+.button:hover {
+  transform: translate(0, -2px);
 }
 .article__image-wrapper {
   width: 50%;
@@ -175,28 +175,28 @@ body {
   max-height: 100%;
   max-width: 100%;
 }
-.image-slider{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-    position: relative;
+.image-slider {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  position: relative;
 }
-.image-slider-image-wrapper{
+.image-slider-image-wrapper {
   width: 95%;
   height: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.image-slider-image{
+.image-slider-image {
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
 }
-.image-slider__pagination{
+.image-slider__pagination {
   margin-top: 5px;
   user-select: none;
   width: 35%;
@@ -204,7 +204,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.image-slider__pagination-dot{
+.image-slider__pagination-dot {
   cursor: pointer;
   height: 20px;
   width: 20px;
@@ -214,10 +214,11 @@ body {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active, .image-slider__pagination-dot:hover{
+.active,
+.image-slider__pagination-dot:hover {
   background: var(--primary);
 }
-.image-slider__pagination-arrow{
+.image-slider__pagination-arrow {
   cursor: pointer;
   font-size: 35px;
   margin: 0 2px;

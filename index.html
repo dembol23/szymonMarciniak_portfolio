@@ -1,71 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Szymon Marciniak👋</title>
-    <link rel="stylesheet" href="assets/styles/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/styles/main.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="header__link-wrapper">
-            <a href="https://github.com/SzymonMarciniak" target="_blank"><ion-icon name="logo-github" alt="Github icon" class="header__link"></ion-icon></a>
-            <a href="https://www.linkedin.com/in/szymon-marciniak-664476265/" target="_blank"><ion-icon name="logo-linkedin" alt="Github icon" class="header__link"></ion-icon></a>
-            <button class="themeToggle" onclick="themeToggle()">
-                <div class="themeToggle__ball" id="themeToggle-ball">
-                    <ion-icon name="moon" id="themeToggle-moon" class="themeToggle__icon icon-hidden"></ion-icon>
-                    <ion-icon name="sunny" id="themeToggle-sun" class="themeToggle__icon"></ion-icon>
-                </div>
-            </button>
-        </div>
-        <nav class="nav">
-            <a href="index.html" class="nav__link">home</a>
-            <a href="index.html#about_me" class="nav__link">about me</a>
-            <a href="index.html#projects" class="nav__link">projects</a>
-            <a href="index.html#contact" class="nav__link">contact</a>
-        </nav>
+      <div class="header__link-wrapper">
+        <a href="https://github.com/SzymonMarciniak" target="_blank"
+          ><ion-icon
+            name="logo-github"
+            alt="Github icon"
+            class="header__link"
+          ></ion-icon
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/szymon-marciniak-664476265/"
+          target="_blank"
+          ><ion-icon
+            name="logo-linkedin"
+            alt="Github icon"
+            class="header__link"
+          ></ion-icon
+        ></a>
+        <button class="themeToggle" onclick="themeToggle()">
+          <div class="themeToggle__ball" id="themeToggle-ball">
+            <ion-icon
+              name="moon"
+              id="themeToggle-moon"
+              class="themeToggle__icon icon-hidden"
+            ></ion-icon>
+            <ion-icon
+              name="sunny"
+              id="themeToggle-sun"
+              class="themeToggle__icon"
+            ></ion-icon>
+          </div>
+        </button>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="nav__link">home</a>
+        <a href="index.html#about_me" class="nav__link">about me</a>
+        <a href="index.html#projects" class="nav__link">projects</a>
+        <a href="index.html#contact" class="nav__link">contact</a>
+      </nav>
     </header>
     <main class="main">
-        <div class="article" id="home">
-            <div class="article__text">
-                <p class="article__title">Hello there!</p>
-                <p class="article__subtitle">I’m <span class="text-span">Szymon</span>,<br>Python and computer vision developer</p>
-                <div class="button-wrapper">
-                    <a href="#projects" class="button primary-button">Check&nbsp;out&nbsp;my&nbsp;projects</a>
-                    <a href="#contact" class="button secondary-button">Get&nbsp;in&nbsp;touch</a>
-                </div>
-            </div>
-            <div class="article__image-wrapper">
-                <img src="assets/img/portrait.jpeg" alt="Szymon portrait" class="article__image">
-            </div>
+      <div class="article" id="home">
+        <div class="article__text">
+          <p class="article__title">Hello there!</p>
+          <p class="article__subtitle">
+            I’m <span class="text-span">Szymon</span>,<br />Python and computer
+            vision developer
+          </p>
+          <div class="button-wrapper">
+            <a href="#projects" class="button primary-button"
+              >Check&nbsp;out&nbsp;my&nbsp;projects</a
+            >
+            <a href="#contact" class="button secondary-button"
+              >Get&nbsp;in&nbsp;touch</a
+            >
+          </div>
         </div>
-        <div class="article" id="about_me">
-            <div class="image-slider">
-                <div class="image-slider-image-wrapper">
-                    <img src="assets/img/TG2023-1.jpg" alt="Techno Granty 2023" class="image-slider-image">
-                </div>
-                <div class="image-slider-image-wrapper">
-                    <img src="assets/img/AI4Youth.jpg" alt="AI4Youth" class="image-slider-image">
-                </div>
-                <div class="image-slider-image-wrapper">
-                    <img src="assets/img/TG2023-2.jpg" alt="Techno Granty 2023" class="image-slider-image">
-                </div>
-                <div class="image-slider__pagination">
-                    <ion-icon name="caret-back" class="image-slider__pagination-arrow" onclick="nextSlide(-1)"></ion-icon>
-                    <span class="image-slider__pagination-dot" onclick="currentSlide(1)"></span>
-                    <span class="image-slider__pagination-dot" onclick="currentSlide(2)"></span>
-                    <span class="image-slider__pagination-dot" onclick="currentSlide(3)"></span>
-                    <ion-icon name="caret-forward" class="image-slider__pagination-arrow" onclick="nextSlide(1)"></ion-icon>
-                </div>
-            </div>
-            <div class="article__text">
-                <p class="article__title">Get to know me</p>
-                <p class="article__subtitle">I'm Szymon, a 18 yo student and programmer from Poland. Since I can remember I was interested in widely understood electronics. About 5 years ago I started learning Python and didn't stop till today. My experience allowed me to win many contests and find my very first job. <span class="text-span-link">Check out some of my projects!</span></p>
-            </div>
+        <div class="article__image-wrapper">
+          <img
+            src="assets/img/portrait.jpeg"
+            alt="Szymon portrait"
+            class="article__image"
+          />
         </div>
+      </div>
+      <div class="article" id="about_me">
+        <div class="image-slider">
+          <div class="image-slider-image-wrapper">
+            <img
+              src="assets/img/TG2023-1.jpg"
+              alt="Techno Granty 2023"
+              class="image-slider-image"
+            />
+          </div>
+          <div class="image-slider-image-wrapper">
+            <img
+              src="assets/img/AI4Youth.jpg"
+              alt="AI4Youth"
+              class="image-slider-image"
+            />
+          </div>
+          <div class="image-slider-image-wrapper">
+            <img
+              src="assets/img/TG2023-2.jpg"
+              alt="Techno Granty 2023"
+              class="image-slider-image"
+            />
+          </div>
+          <div class="image-slider__pagination">
+            <ion-icon
+              name="caret-back"
+              class="image-slider__pagination-arrow"
+              onclick="nextSlide(-1)"
+            ></ion-icon>
+            <span
+              class="image-slider__pagination-dot"
+              onclick="currentSlide(1)"
+            ></span>
+            <span
+              class="image-slider__pagination-dot"
+              onclick="currentSlide(2)"
+            ></span>
+            <span
+              class="image-slider__pagination-dot"
+              onclick="currentSlide(3)"
+            ></span>
+            <ion-icon
+              name="caret-forward"
+              class="image-slider__pagination-arrow"
+              onclick="nextSlide(1)"
+            ></ion-icon>
+          </div>
+        </div>
+        <div class="article__text">
+          <p class="article__title">Get to know me</p>
+          <p class="article__subtitle">
+            I'm Szymon, a 18 yo student and programmer from Poland. Since I can
+            remember I was interested in widely understood electronics. About 5
+            years ago I started learning Python and didn't stop till today. My
+            experience allowed me to win many contests and find my very first
+            job.
+            <span class="text-span-link">Check out some of my projects!</span>
+          </p>
+        </div>
+      </div>
     </main>
     <script src="assets/scripts/imageSlider.js"></script>
     <script src="assets/scripts/themeToggle.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
